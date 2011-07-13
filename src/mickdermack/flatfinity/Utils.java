@@ -17,4 +17,11 @@ public class Utils {
             sum+=array[i];
         return sum;
     }
+
+    public static int byteArraySum(byte[] array) {
+        int sum = 0;
+        for (int i=0;i<array.length;i++)
+            sum+=array[i];
+        return sum;
+    }
 }

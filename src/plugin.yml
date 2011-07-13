@@ -1,6 +1,6 @@
 name: Flatfinity
 main: mickdermack.flatfinity.Flatfinity
-version: 0.1
+version: 0.2
 commands:
 #    flatfinity:
 #        description: Creates or recreates the Flatfinity world

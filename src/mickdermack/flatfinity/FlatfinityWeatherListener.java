@@ -21,7 +21,7 @@ class FlatfinityWeatherListener extends WeatherListener {
 
     @Override
     public void onWeatherChange(WeatherChangeEvent evt) {
-        if (evt.toWeatherState())
+        if (evt.toWeatherState()&&!evt.isCancelled())
             evt.setCancelled(true);
     }
 
